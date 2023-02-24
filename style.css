@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(142, 135, 150);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.screen{
+    border: 5px solid rgb(0, 0, 0);
+    max-width: 720px;
+    width: 720px;
+    max-height: 500px;
+    height: 500px;
+}
+
+.below{
+    max-width: 720px;
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.prev{
+    height: 70px;
+    width: 360px;
+
+}
+
+.next{
+    width: 360px;
+}
+
